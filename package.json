@@ -1,0 +1,19 @@
+{
+  "name": "a-mapper",
+  "version": "1.0.2",
+  "description": "async mapper,solve async map foreach reduce",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "dev": "tsc --watch ./lib/index.ts",
+    "build": "tsc -b ./tsconfig.json"
+  },
+  "author": "thecatshidog",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.14"
+  }
+}
