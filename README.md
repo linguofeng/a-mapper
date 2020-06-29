@@ -34,7 +34,7 @@ async function main() {
   });
   console.log("hello");
 }
-main(); // asdf 1 2 3 4 hello
+main(); // asdf 1 1 1 1 hello
 ```
 
 asyncMap can execute all list length function, be not equal to filter array function
